@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dormbh850v22b"]
+
+[ext_resource type="Script" path="res://Scenes/killer.gd" id="1_l6gap"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_whxpo"]
+size = Vector2(558, 18)
+
+[node name="KillerArea" type="Area2D"]
+script = ExtResource("1_l6gap")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(269, -1)
+scale = Vector2(2.87739, 0.723682)
+shape = SubResource("RectangleShape2D_whxpo")
